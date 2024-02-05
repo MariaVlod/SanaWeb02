@@ -1,0 +1,110 @@
+p {
+    color: green;
+    text-align: center;
+}
+.red-text{
+    color: red;
+}
+#pink-text{
+    color: pink;
+}
+.blue-link{
+    color: blue;
+}
+.menu a{
+    color: pink;
+}
+.menu > li > a {
+    color: green;
+}
+li ul {
+    list-style-type: none;
+}
+.menu li > ul:last-child{
+    list-style-type: square;
+}
+.menu > li > ul:last-child a {
+    text-decoration: none;
+}
+
+
+
+
+
+h1 + p {
+    font-size: 20px;
+}
+p code {
+    color: red;
+}
+p + p code {
+    color: pink;
+}
+code {
+    white-space: pre;
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+
+}
+td {
+    overflow: hidden;
+    text-align: center;
+}
+td, th {
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+tr:nth-child(2n+1) td:not(:first-child) {
+    background-color: #f0dada;
+}
+
+tr:nth-child(2n) td:not(:first-child) {
+    background-color: #e4b7b6;
+}
+
+tr:not(:first-child) th{
+    background-color: #bd4f4c;
+    color:white;
+    font-size: larger;
+}
+
+th:nth-child(1) {
+    background-color: #f0dada;
+}
+th:nth-child(2) {
+    background-color: #e4b7b6;
+    font-size: larger;
+}
+th:nth-child(3) {
+    background-color: #d89493;
+    color:white;
+    font-size: larger;
+}
+th:nth-child(4) {
+    background-color: #933634;
+    color:white;
+    font-size: larger;
+}
+th:nth-child(5) {
+    background-color: #632423;
+    color:white;
+    font-size: larger;
+}

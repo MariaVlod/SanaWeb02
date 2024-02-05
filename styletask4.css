@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e4b7b6;
+}
+
+h1, h2 {
+    text-align: left;
+    color: #ffffff;
+}
+input {
+    padding: 4px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+input:hover{
+    background-color: darksalmon;
+}
+
+form {
+    background: rgb(220, 112, 128);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #632423;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+a:hover {
+    text-decoration: underline;
+    color: #45a0a0;
+}
+.container {
+    background: rgba(220, 112, 128, 0.8); /* Змінено на rgba для прозорості */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin: 55px;
+}
+.image-container {
+    background: url('https://klau.club/uploads/posts/2023-01/1675129014_klau-club-p-krasivii-zelenii-tsvet-rastenie-11.jpg') center/cover no-repeat;
+    width: 1000px;
+    height: 800px;
+    margin-left: 400px;
+    /* Додайте ваші стилі для зображення */
+}
